@@ -1,8 +1,21 @@
 aid: dolphinsearch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dolphinsearch.png
 name: DolphinSearch
-description: DolphinSearch is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: DolphinSearch was an eDiscovery, information lifecycle management, and compliance company
+  surfaced as a portfolio company of Insight Partners. As of enrichment it has no active public developer
+  or API surface - the dolphinsearch.com domain is parked/for-sale (302 to HugeDomains) and the Insight
+  Partners portfolio record marks it as not an API provider - so no API artifacts could be produced.
 url: https://raw.githubusercontent.com/api-evangelist/dolphinsearch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +25,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- eDiscovery
+- Compliance
+- Legal
+- Information Governance
+- Information Lifecycle Management
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
